@@ -36,7 +36,7 @@ def ensure_git_repo() -> None:
         sys.exit(1)
 
 
-def main() -> None:
+def run() -> None:
     if shutil.which("git") is None:
         print("git command not found in PATH.", file=sys.stderr)
         sys.exit(1)
@@ -74,8 +74,12 @@ def main() -> None:
         print("git exited with errors. Some branches may remain.")
 
 
-if __name__ == "__main__":
+def main():
     try:
-        main()
+        run()
     except KeyboardInterrupt:
         print("\nInterrupted.")
+
+
+if __name__ == "__main__":
+    main()
