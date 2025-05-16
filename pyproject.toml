@@ -1,9 +1,9 @@
 [project]
 name = "git-branch-deleter"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Git branch delete tool."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "questionary>=2.1.0",
 ]
