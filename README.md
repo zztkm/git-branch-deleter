@@ -13,6 +13,6 @@ uv tool install git+https://github.com/zztkm/git-branch-deleter
 ## Usage
 
 ```bash
-uvx run 
+uvx git-branch-deleter 
 ```
 
