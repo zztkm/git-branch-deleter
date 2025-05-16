@@ -2,4 +2,5 @@
 
 Git Branch を削除するためのツールです。
 
-TUI で一括で Branch を選択して削除することができます。
+![screenshot](https://i.gyazo.com/39aa6f756655b20ca1b73cd9da8c64e3.png)
+
